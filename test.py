@@ -9,7 +9,7 @@ iter = 125 #the iters of an epoch
 
 i = 0
 
-model = YOLO('/home/pesquisador/pesquisa/filipe/model_compress/runs/train/snn_oxford_tower_custom_train3/weights/best.pt')
+model = YOLO('/home/pesquisador/pesquisa/filipe/syolo/runs/train/snn_oxford_tower_custom_train3/weights/best.pt')
 
 def forward_hook_fn(module, input, output):  # 计算每一层的发放率
     global i
